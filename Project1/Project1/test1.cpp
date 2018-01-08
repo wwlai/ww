@@ -69,6 +69,7 @@ ostream& operator << (ostream& out, Graphmtx& G)
 
 int main()
 {
+	cout << "来文文";
 	int i;
 	int head, tail;
 	char v1[] = { '1','2','3','4','5','6','7','8','9' };//顶点信息
