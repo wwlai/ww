@@ -7,8 +7,6 @@
 using namespace std;
 const int MaxVertices = 100;	//图中的最大顶点数目
 const int MaxWeight = 10000;	//无穷大的权值
-
-
 typedef char VT;	//图中顶点数据域类型VT
 typedef int WT;		//图中边权值类型WT
 
@@ -34,6 +32,7 @@ struct MSTEdgeNode						//最小生成树边结点
 void CreatGraph(Graphmtx &G, char V[], int n, RowColWeight E[], int e)
 //在图G中插入n个顶点V和e条边E
 {
+	cout << "社什么课";
 	//在图G中插入n个顶点
 	for (int i = 0; i < n; i++)
 		G.insertVertex(V[i]);
