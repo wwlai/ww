@@ -74,7 +74,6 @@ int Graphmtx::getNextNeighbor(int v, int w)
 
 bool Graphmtx::removeVertex(int v)
 {
-	cout << "·ë·¨Õþ";
 	if (v < 0 && v >= numVertices)
 		return false;
 	if (numVertices == 1)
