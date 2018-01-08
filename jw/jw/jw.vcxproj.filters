@@ -15,24 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\JWwork\Graph.h">
+    <ClInclude Include="Graph.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\JWwork\Graphmtx.h">
+    <ClInclude Include="Graphmtx.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\JWwork\qat.h">
+    <ClInclude Include="qat.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\JWwork\Graph.cpp">
+    <ClCompile Include="Graphmtx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\JWwork\Graphmtx.cpp">
+    <ClCompile Include="Graph.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\JWwork\test.cpp">
+    <ClCompile Include="test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
